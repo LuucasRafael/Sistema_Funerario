@@ -8,6 +8,8 @@ O sistema é voltado para o atendimento ao cliente de uma funerária, onde são 
 
 Todo o projeto foi desenvolvimento em C#
 
+## Requisitos Funcionais 
+
 <table>
 <tr>
 <td>RF01</td>
