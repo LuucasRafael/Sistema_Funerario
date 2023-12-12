@@ -10,6 +10,7 @@ Todo o projeto foi desenvolvimento em C#
 
 <table>
 <tr>
+<td>RF01</td>
 <td>Cadastro de Pessoa</td>
 <td> O sistema permite o cadastro de informações sobre uma pessoa falecida, incluindo nome, gênero, data de nascimento e data de falecimento.</td>
 </tr>
