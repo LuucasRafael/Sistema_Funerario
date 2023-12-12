@@ -14,7 +14,7 @@ Todo o projeto foi desenvolvimento em C#
 <tr>
 <td>Número</td>
 <td>Nome</td>
-<td>descrição</td>
+<td>Descrição</td>
 </tr>
 <tr>
 <td>RF01</td>
