@@ -9,5 +9,8 @@ O sistema é voltado para o atendimento ao cliente de uma funerária, onde são 
 Todo o projeto foi desenvolvimento em C#
 
 <table>
-
+<tr>
+<td>Cadastro de Pessoa</td>
+<td> O sistema permite o cadastro de informações sobre uma pessoa falecida, incluindo nome, gênero, data de nascimento e data de falecimento.</td>
+</tr>
 </table>
