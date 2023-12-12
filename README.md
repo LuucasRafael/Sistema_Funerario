@@ -12,8 +12,18 @@ Todo o projeto foi desenvolvimento em C#
 
 <table>
 <tr>
+<td>Número</td>
+<td>Nome</td>
+<td>descrição</td>
+</tr>
+<tr>
 <td>RF01</td>
 <td>Cadastro de Pessoa</td>
-<td> O sistema permite o cadastro de informações sobre uma pessoa falecida, incluindo nome, gênero, data de nascimento e data de falecimento.</td>
+<td> O sistema permite o cadastro de informações sobre uma pessoa falecida, incluindo nome, gênero, data de nascimento e data de falecimento</td>
+</tr>
+<tr>
+<td>RF02</td>
+<td>Escolha do Gênero</td>
+<td>O usuário pode escolher o gênero da pessoa falecida (Masculino ou Feminino)</td>
 </tr>
 </table>
