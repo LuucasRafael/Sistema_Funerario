@@ -1,6 +1,6 @@
 # Sistema Funerario
 
-##status
+## status
 em desenvolvimento 
 
 ## Introdução
