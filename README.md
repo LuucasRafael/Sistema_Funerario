@@ -26,4 +26,44 @@ Todo o projeto foi desenvolvimento em C#
 <td>Escolha do Gênero</td>
 <td>O usuário pode escolher o gênero da pessoa falecida (Masculino ou Feminino)</td>
 </tr>
+<tr>
+<td>RF03</td>
+<td>Escolha do Tipo de Caixão</td>
+<td>O sistema oferece opções para o usuário escolher o tipo de madeira, estilo e cor do caixão</td>
+</tr>
+<tr>
+<td>RF04</td>
+<td>Escolha de Serviços Adicionais</td>
+<td>O usuário pode optar por serviços adicionais, como maquiagem no defunto</td>
+</tr>
+<tr>
+<td>RF05</td>
+<td>Confirmação de Informações</td>
+<td>O sistema exibe as informações inseridas e solicita confirmação do usuário</td>
+</tr>
+<tr>
+<td>RF06</td>
+<td>Geração de Recibo</td>
+<td>Após a confirmação, o sistema gera um recibo com o resumo das escolhas e o valor total a ser pago</td>
+</tr>
+<tr>
+<td>RF07</td>
+<td>Escolha de Forma de Pagamento</td>
+<td>O usuário pode escolher entre débito, crédito ou pagamento à vista</td>
+</tr>
+<tr>
+<td>RF08</td>
+<td>Processamento de Pagamento</td>
+<td>O sistema processa o pagamento, calcula o troco (se aplicável) e confirma a transação</td>
+</tr>
+<tr>
+<td>RF09</td>
+<td>Registro Local</td>
+<td>O sistema solicita informações sobre o hospital, local de sepultamento, data e hora do sepultamento</td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>Geração de Documentos</td>
+<td>O sistema gera documentos como laudo, lapide e informações do caixão</td>
+</tr>
 </table>
