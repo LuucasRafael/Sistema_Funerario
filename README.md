@@ -1,4 +1,4 @@
-<div align=center> Sistema Funerario<\div>
+<div align=center> Sistema Funerario</div>
 
 ## Status Do Projeto 
 
