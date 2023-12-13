@@ -140,7 +140,19 @@ data(string) - e utilizado para armazenar a data do sepultamento.
 
 hora(string) - e utilizado para armazenar a hora do sepultamento.
 
+dia(string) - e utilizado para armazenar o dia de data.
+
+mes(string) - e utilizado para armazenar o mês de data.
+
+ano(string) - e utilizado para armazenar o ano de data.
+
+ht(string) - e utilizado para armazenar as horas de hora.
+
+mt(string) - e utilizado para armazenar os minutos de hora.
+
 #### Métodos:
+
+conflocal() - e utilizado para fazer a confirmação de dados de local.
 
 inflocal() - e utilizado para executar toda a parte de local.
 
