@@ -50,7 +50,9 @@ lapidect(abstract) - método abstrato que deve ser ulilezado por classes derivad
 
 execucao1(abstract) - método abstrato que deve ser usado por classes derivadas,e um método utilizado para a execução da 1° parte do programa.
 
-### classe: Mulher (Herda de corpo)
+### Classe: Mulher (Herda de corpo)
+
+A classe Mulher herda todos os atributos e métodos da classe abstrata corpo.
 
 #### Métodos:
 
@@ -62,7 +64,9 @@ lapide(override) - método sobrescrito da classe base corpo,ele serve para mostr
 
 execucao1(override) - método sobrescrito da classe base corpo,ele faz toda a execução da parte do programa relacionada a classe Mulher.
 
-### classe: Homem (Herda de corpo)
+### Classe: Homem (Herda de corpo)
+
+A classe homem herda todos os atributos e métodos da classe abstrata corpo.
 
 #### Métodos:
 
