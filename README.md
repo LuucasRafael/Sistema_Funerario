@@ -12,6 +12,10 @@ O sistema é voltado para o atendimento ao cliente de uma funerária, onde são 
 
 Todo o projeto foi desenvolvimento em C#
 
+## Sobre o Código
+
+
+
 ## Requisitos Funcionais 
 
 Requisitos funcionais são especificações detalhadas das funcionalidades que um sistema ou software deve oferecer. Eles descrevem as ações específicas que o sistema deve executar em resposta a entradas específicas do usuário ou de outros sistemas. Esses requisitos definem o que o sistema deve fazer para atender às necessidades e expectativas dos usuários.
