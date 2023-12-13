@@ -21,14 +21,23 @@ A classe Corpo é declarado como classe abstrata por isso não pode ser instanci
 #### Atributos: 
 
 nome(string) - e utilizado para armazenar o nome do defunto.
+
 idade(Double) - e utilizado para armazenar a idade do defunto.
+
 Dnasci(string) - e utilizado para armazenar a data de nascimento do defunto.
+
 Dfaleci(string) - e utilizado para armazenar a data de falecimento do defunto.
+
 gênero(string) - e utilizado para armazenar o gênero do defunto.
+
 testo(string) - e utilizado para armazenar o testo que a pessoa vai querer colocar na lápide.
+
 conf(string) - e utilizado para armazenar a confirmação de informação.
+
 dia(string) - e utilizado para armazenar o dia tanto de Dnasci como também de Dfaleci.
+
 mes(string) - e utilizado para armazenar o mês tanto de Dnasci como também de Dfaleci.
+
 ano(string) - e utilizado para armazenar o ano tanto de Dnasci como também de Dfaleci.
 
 #### Métodos:
