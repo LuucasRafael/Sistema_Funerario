@@ -30,7 +30,7 @@ Dfaleci(string) - e utilizado para armazenar a data de falecimento do defunto.
 
 gênero(string) - e utilizado para armazenar o gênero do defunto.
 
-testo(string) - e utilizado para armazenar o testo que a pessoa vai querer colocar na lápide.
+testo(string) - e utilizado para armazenar o texto que a pessoa vai querer colocar na lápide.
 
 conf(string) - e utilizado para armazenar a confirmação de informação.
 
@@ -43,6 +43,14 @@ ano(string) - e utilizado para armazenar o ano tanto de Dnasci como também de D
 #### Métodos:
 
 laudo(abstract) - método abstrato que deve ser usado por classes derivadas,serve para mostrar as informaçoes do corpo para confirmação.
+
+lapide(abstract) - metodo abstrato que deve ser utilizado por classes derivadas,serve para gerar um molde de como será a lápide.
+
+lapidect(abstract) - método abstrato que deve ser ulilezado por classes derivadas,serve para gerar uma prévia dé como será a lápide com o texto escrito.
+
+execucao1(abstract) - método abstrato que deve ser usado por classes derivadas,e um método utilizado para a execução da 1° parte do programa.
+
+
 
 
 ## Requisitos Funcionais 
