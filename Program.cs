@@ -1,5 +1,4 @@
-﻿
-public abstract class corpo
+﻿public abstract class corpo
 {
     public string Nome { get; set; }
     public double idade { get; set; }
@@ -41,24 +40,21 @@ public class Mulher : corpo
     {
         Console.Write("Idade: ");
         idade = Int32.Parse(Console.ReadLine());
-        
-         Console.Write("Data De Nascimento: ");
-         Dnasci = Console.ReadLine();
-           
-          dia = Dnasci.Substring(0, 2);
-          mes = Dnasci.Substring(2, 2);
-          ano = Dnasci.Substring(4, 4);
-          Dnasci = string.Concat(dia, "/", mes, "/", ano);
-           
 
+        Console.Write("Data De Nascimento: ");
+        Dnasci = Console.ReadLine();
+
+        dia = Dnasci.Substring(0, 2);
+        mes = Dnasci.Substring(2, 2);
+        ano = Dnasci.Substring(4, 4);
+        Dnasci = string.Concat(dia, "/", mes, "/", ano);
 
         Console.Write("Data De Falecimento: ");
         Dfaleci = Console.ReadLine();
-
-         dia = Dfaleci.Substring(0, 2);
-         mes = Dfaleci.Substring(2, 2);
-         ano = Dfaleci.Substring(4, 4);
-         Dfaleci = string.Concat(dia, "/", mes, "/", ano);
+        dia = Dfaleci.Substring(0, 2);
+        mes = Dfaleci.Substring(2, 2);
+        ano = Dfaleci.Substring(4, 4);
+        Dfaleci = string.Concat(dia, "/", mes, "/", ano);
 
         Console.Clear();
         laudo();
@@ -111,19 +107,17 @@ public class homem : corpo
 
         Console.Write("Data De Nascimento: ");
         Dnasci = Console.ReadLine();
-
-         dia = Dnasci.Substring(0, 2);
-         mes = Dnasci.Substring(2, 2);
-         ano = Dnasci.Substring(4, 4);
-         Dnasci = string.Concat(dia, "/", mes, "/", ano);
+        dia = Dnasci.Substring(0, 2);
+        mes = Dnasci.Substring(2, 2);
+        ano = Dnasci.Substring(4, 4);
+        Dnasci = string.Concat(dia, "/", mes, "/", ano);
 
         Console.Write("Data De Falecimento: ");
         Dfaleci = Console.ReadLine();
-        
-         dia = Dfaleci.Substring(0, 2);
-         mes = Dfaleci.Substring(2, 2);
-         ano = Dfaleci.Substring(4, 4);
-         Dfaleci = string.Concat(dia, "/", mes, "/", ano);
+        dia = Dfaleci.Substring(0, 2);
+        mes = Dfaleci.Substring(2, 2);
+        ano = Dfaleci.Substring(4, 4);
+        Dfaleci = string.Concat(dia, "/", mes, "/", ano);
 
         Console.Clear();
         laudo();
@@ -252,7 +246,7 @@ public class caixao
 
                 case "3":
                     vtmadeira = 500.00;
-                    tmadeira = "Carejeira";
+                    tmadeira = "Cerejeira";
                     break;
 
                 default:
@@ -430,49 +424,92 @@ public class local
     public string lsepul { get; set; }
     public string data { get; set; }
     public string hora { get; set; }
+    public string conf { get; set; }
+    public string dia { get; set; }
+    public string mes { get; set; }
+    public string ano { get; set; }
+    public string ht { get; set; }
+    public string mt { get; set; }
+
+
+    public void conflocal()
+    {
+        Console.WriteLine("Confirmacao de informacoes\nHospital: " + hospi + "\nLocal Sepultamento: " + lsepul + "\nData: " + data + "\nHora: " + hora);
+    }
 
     public void inflocal()
     {
-        Console.Clear();
-        Console.WriteLine("Agora que voce ja efetuou o pagamento informe:");
         do
         {
-            Console.WriteLine("Em qual hospital o corpo esta localizado: ");
-            hospi = Console.ReadLine();
-            if (hospi == "")
+            Console.Clear();
+            Console.WriteLine("Agora que voce ja efetuou o pagamento informe:");
+            do
             {
-                Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
-            }
-        } while (hospi == "");
-        do
-        {
-            Console.WriteLine("Local onde sera realizado o sepultamento: ");
-            lsepul = Console.ReadLine();
-            if (lsepul == "")
+                Console.WriteLine("Em qual hospital o corpo esta localizado: ");
+                hospi = Console.ReadLine();
+                if (hospi == "")
+                {
+                    Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
+                }
+            } while (hospi == "");
+            do
             {
-                Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
-            }
-        } while (lsepul == "");
-        Console.WriteLine("Data e hora do sepultamento");
-        do
-        {
-            Console.Write("Data: ");
-            data = Console.ReadLine();
-            if (data == "")
+                Console.WriteLine("Local onde sera realizado o sepultamento: ");
+                lsepul = Console.ReadLine();
+                if (lsepul == "")
+                {
+                    Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
+                }
+            } while (lsepul == "");
+            Console.WriteLine("Data e hora do sepultamento");
+            do
             {
-                Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
-            }
-        } while (data == "");
-        do
-        {
-            Console.Write("Hora: ");
-            hora = Console.ReadLine();
-            if (hora == "")
+                Console.Write("Data: ");
+                data = Console.ReadLine();
+                dia = data.Substring(0, 2);
+                mes = data.Substring(2, 2);
+                ano = data.Substring(4, 4);
+                data = string.Concat(dia, "/", mes, "/", ano);
+                if (data == "")
+                {
+                    Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
+                }
+            } while (data == "");
+            do
             {
-                Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
-            }
-        } while (hora == "");
+                Console.Write("Hora: ");
+                hora = Console.ReadLine();
+                ht = hora.Substring(0, 2);
+                mt = hora.Substring(2, 2);
+                hora = string.Concat(ht, ":", mt);
+                if (hora == "")
+                {
+                    Console.WriteLine("compo vazio,porfavor digite oque esta sendo pedido");
+                }
+            } while (hora == "");
 
+            Console.Clear();
+            conflocal();
+            Console.WriteLine("as informacoes estao corretos?\nSe sim digite S,senao digite N");
+            conf = Console.ReadLine();
+
+            switch (conf)
+            {
+
+                case "N":
+                    Console.WriteLine("Ok! entao altere os seus dados para os corretos");
+                    break;
+
+                case "S":
+                    Console.WriteLine("Dados confirmados com sucesso");
+                    break;
+
+                default:
+                    Console.Write("informacao incorreta,preencha o campo novamente");
+                    break;
+            }
+
+        } while (conf != "S");
     }
 }
 
