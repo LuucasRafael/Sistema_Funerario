@@ -42,7 +42,7 @@ ano(string) - e utilizado para armazenar o ano tanto de Dnasci como também de D
 
 #### Métodos:
 
-laudo(abstract) - método abstrato que deve ser usado por classes derivadas.serve para mostrar as informaçoes do corpo para confirmação.
+laudo(abstract) - método abstrato que deve ser usado por classes derivadas,serve para mostrar as informaçoes do corpo para confirmação.
 
 
 ## Requisitos Funcionais 
