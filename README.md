@@ -72,3 +72,8 @@ Requisitos funcionais são especificações detalhadas das funcionalidades que u
 <td>O sistema gera documentos como laudo, lapide e informações do caixão</td>
 </tr>
 </table>
+
+## Requisitos Não Funcionais
+
+Requisitos não funcionais referem-se a características do sistema que não estão relacionadas diretamente às funcionalidades específicas, mas sim a atributos que impactam seu desempenho, usabilidade, segurança, entre outros. Exemplos incluem requisitos de desempenho, como tempo de resposta, requisitos de segurança, como controle de acesso, e requisitos de usabilidade, como a interface do usuário. Esses requisitos abordam aspectos globais do sistema, garantindo que ele atenda a critérios além das funcionalidades específicas.
+
