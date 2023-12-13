@@ -77,3 +77,35 @@ Requisitos funcionais são especificações detalhadas das funcionalidades que u
 
 Requisitos não funcionais referem-se a características do sistema que não estão relacionadas diretamente às funcionalidades específicas, mas sim a atributos que impactam seu desempenho, usabilidade, segurança, entre outros. Exemplos incluem requisitos de desempenho, como tempo de resposta, requisitos de segurança, como controle de acesso, e requisitos de usabilidade, como a interface do usuário. Esses requisitos abordam aspectos globais do sistema, garantindo que ele atenda a critérios além das funcionalidades específicas.
 
+<table>
+<tr>
+<td>Número</td>
+<td>Nome</td>
+<td>Descrição</td>
+</tr>
+<tr>
+<td>RNF01</td>
+<td>Interface de Console</td>
+<td>O sistema utiliza uma interface de console para interação com o usuário</td>
+</tr>
+<tr>
+<td>RNF02</td>
+<td>Validação de Entrada</td>
+<td>O sistema valida as entradas do usuário, garantindo que campos obrigatórios não fiquem vazios e que as escolhas sejam válidas</td>
+</tr>
+<tr>
+<td>RNF03</td>
+<td>Tratamento de Exceções</td>
+<td>O código inclui tratamento de exceções para lidar com possíveis erros durante a execução</td>
+</tr>
+<tr>
+<td>RNF04</td>
+<td>Multiplataforma</td>
+<td>O código pode ser executado em qualquer plataforma que suporte a execução de aplicativos .NET</td>
+</tr>
+<tr>
+<td>RNF05</td>
+<td>Eficiência</td>
+<td>O código busca eficiência ao realizar cálculos e processos, como o cálculo do troco</td>
+</tr>
+</table>
