@@ -112,7 +112,33 @@ conf(string) - e utilizado para armazenar a confirmação das informações.
 
 #### Métodos:
 
-execucao1
+execucao1() - e utilizado para executar toda a parte de escolhas com relação ao caixão.
+
+execucao2() - e utilizado para executar toda a parte de escolha referente a maquiagem.
+
+execucao3() - e utilizado para fazer a confirmação dos dados que o cliente tem a pagar.
+
+coninf() - e utilizado para fazer a confirmação dos dados do caixão.
+
+vapagar() - e utilizado para fazer o cálculo e guardar as informações dos valores que o cliente tem a pagar.
+
+pagar() - e utilizado para exercitar toda a parte de pagamento do cliente.
+
+### Classe: local
+
+#### Atributos:
+
+hospi(string) - e utilizado para armazenar o hospital onde está localizado o corpo.
+
+lsepul(string) - e utilizado para armazenar o local onde será realizado o sepultamento.
+
+data(string) - e utilizado para armazenar a data do sepultamento.
+
+hora(string) - e utilizado para armazenar a hora do sepultamento.
+
+#### Métodos:
+
+inflocal() - e utilizado para executar toda a parte de local.
 
 ## Requisitos Funcionais 
 
