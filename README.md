@@ -66,7 +66,7 @@ execucao1(override) - método sobrescrito da classe base corpo,ele faz toda a ex
 
 ### Classe: Homem (Herda de corpo)
 
-A classe homem herda todos os atributos e métodos da classe abstrata corpo.
+A classe Homem herda todos os atributos e métodos da classe abstrata corpo.
 
 #### Métodos:
 
