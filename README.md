@@ -50,8 +50,69 @@ lapidect(abstract) - método abstrato que deve ser ulilezado por classes derivad
 
 execucao1(abstract) - método abstrato que deve ser usado por classes derivadas,e um método utilizado para a execução da 1° parte do programa.
 
+### classe: Mulher (Herda de corpo)
 
+#### Métodos:
 
+laudo(override) - Método sobrescrito da classe base corpo,ele serve para mostrar na tela todas as informações sobre o corpo para confirmação destes dados.
+
+lapide(override) - método sobrescrito da classe base corpo,ele serve para mostrar na tela uma prévia de como irá ficar a lápide.
+
+lapide(override) - método sobrescrito da classe base corpo,ele serve para mostrar na tela uma prévia de como irá ficar a lápide com o texto escrito pelo cliente.
+
+execucao1(override) - método sobrescrito da classe base corpo,ele faz toda a execução da parte do programa relacionada a classe Mulher.
+
+### classe: Homem (Herda de corpo)
+
+#### Métodos:
+
+laudo(override) - Método sobrescrito da classe base corpo,ele serve para mostrar na tela todas as informações sobre o corpo para confirmação destes dados.
+
+lapide(override) - método sobrescrito da classe base corpo,ele serve para mostrar na tela uma prévia de como irá ficar a lápide.
+
+lapide(override) - método sobrescrito da classe base corpo,ele serve para mostrar na tela uma prévia de como irá ficar a lápide com o texto escrito pelo cliente.
+
+execucao1(override) - método sobrescrito da classe base corpo,ele faz toda a execução da parte do programa relacionada a classe Homem.
+
+### Classe: Caixao 
+
+#### Atributos:
+
+tmadeira(string) - e utilizado para armazenar o tipo de madeira escolhido pelo cliente.
+
+vtmadeira(Double) - e utilizado para armazenar o valor do tipo de madeira escolhido pelo cliente.
+
+estilo(string) - e utilizado para armazenar o estilo de caixão escolhido pelo cliente.
+
+vestido(Double) - e utilizado para armazenar o valor do estilo de caixão escolhido pelo cliente.
+
+cor(string) - e utilizado para armazenar a cor do caixão escolhido pelo cliente.
+
+vcor(Double) - e utilizado para armazenar o valor da cor escolhida pelo cliente.
+
+maquiagem(string) - e utilizado para armazenar a escolha do cliente no uso ou não de maquiagem no corpo.
+
+vmaquiagem(Double) - e utilizado para armazenar o valor da maquiagem.
+
+vlapide(Double) - e utilizado para armazenar o valor da lápide.
+
+total(Double) - e utilizado para armazenar a soma de todos os valor que o cliente escolheu.
+
+troco(Double) - e utilizado para armazenar o troco do cliente se necessário.
+
+pagamento(Double) - e utilizado para armazenar o valor que o cliente estará pagando.
+
+opcaoPagamento(Double) - e utilizado para armazenar a opção de pagamento escolhida pelo cliente.
+
+teste(Double) - e utilizado para uma estrutura de reptiçao condicional de pagar.
+
+opcao(string) - e utilizado para armazenar a escolha do cliente e é utilizado em uma estrutura de escolha em exercicio1.
+
+conf(string) - e utilizado para armazenar a confirmação das informações.
+
+#### Métodos:
+
+execucao1
 
 ## Requisitos Funcionais 
 
