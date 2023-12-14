@@ -221,6 +221,9 @@ public class caixao
                 teste = 0;
             }
         } while (teste == 0);
+        Console.Write("Para proceguir aperte Enter");
+        Console.ReadLine();
+        Console.Clear();
 
     }
 
@@ -440,8 +443,7 @@ public class local
     public void inflocal()
     {
         do
-        {
-            Console.Clear();
+        {
             Console.WriteLine("Agora que voce ja efetuou o pagamento informe:");
             do
             {
